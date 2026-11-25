@@ -36,3 +36,10 @@
 #     Старт!
 
 # Решение
+number = int(input("введите число:"))
+
+while number >= 1:
+  print(number)
+  number = number - 1
+
+print("Старт!")
